@@ -10,7 +10,7 @@
       />
 
       <textarea
-        class="relative w-full bg-transparent px-2 border mt-2 h-64 border-none leading-normal"
+        class="relative w-full bg-transparent px-2 border mt-2 h-64 leading-normal"
         :value="task.description"
         @change="updateTaskProperty($event, 'description')"
       />

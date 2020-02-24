@@ -1,6 +1,6 @@
 <template>
-  <div class="board">
-    <div class="flex flex-row items-start">
+  <div class="board flex flex-wrap">
+    <div class="flex flex-wrap items-start mb-4">
       <BoardColumn
         v-for="(column, $columnIndex) of board.columns"
         :key="$columnIndex"
@@ -54,10 +54,11 @@ export default {
 </script>
     <style lang="css">
 .board {
-  @apply p-4 bg-teal-dark h-full overflow-auto;
+  @apply p-4 h-full overflow-auto;
+  background: #53c4d1;
 }
 .task-bg {
   @apply pin absolute;
-  background: rgba(0, 0, 0, 0.5);
+  background: #53c4d1;
 }
 </style>

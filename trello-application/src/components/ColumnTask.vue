@@ -17,7 +17,7 @@
   </div>
 </template>
 <script>
-import MovingTasksColumn from "@/mixins/MovingTaskColumn";
+import MovingTasksColumn from "./mixins/MovingTaskColumn";
 
 export default {
   mixins: [MovingTasksColumn],

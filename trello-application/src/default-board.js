@@ -1,33 +1,33 @@
 import { uuid } from './utils'
 
 export default {
-  name: 'workshop',
+  name: 'MyApp',
   columns: [
     {
-      name: 'todo',
+      name: 'Todo',
       tasks: [
         {
           description: '',
-          name: 'first task',
+          name: 'First task',
           id: uuid(),
           userAssigned: null
         },
         {
           description: '',
-          name: 'second task',
+          name: 'Second task',
           id: uuid(),
           userAssigned: null
         },
         {
           description: '',
-          name: 'and thrid',
+          name: 'Thrid',
           id: uuid(),
           userAssigned: null
         }
       ]
     },
     {
-      name: 'in-progress',
+      name: 'In-progress',
       tasks: [
         {
           description: '',
@@ -38,7 +38,7 @@ export default {
       ]
     },
     {
-      name: 'done',
+      name: 'Done',
       tasks: [
         {
           description: '',

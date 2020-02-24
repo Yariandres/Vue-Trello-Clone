@@ -1,6 +1,6 @@
 <template>
   <div
-    class="column"
+    class="column mb-4"
     draggable
     @drop="moveTaskOrColumn($event, column.tasks, columnIndex)"
     @dragover.prevent
@@ -31,7 +31,7 @@
 </template>
 <script>
 import ColumnTask from "./ColumnTask";
-import MovingTasksColumn from "@/mixins/MovingTaskColumn";
+import MovingTasksColumn from "./mixins/MovingTaskColumn";
 export default {
   components: { ColumnTask },
   mixins: [MovingTasksColumn],
